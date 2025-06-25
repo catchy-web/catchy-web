@@ -10,3 +10,7 @@ While we love to be slippy, the catchy web wants to be catchy too.
 
 Everything you do is good as long as it is fun. No fun, no catchy.
 If others have fun too, they must share the fun.
+
+## start here
+
+[>> world <<](./world.md)
