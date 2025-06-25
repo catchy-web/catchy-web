@@ -8,4 +8,4 @@ Welcome to the catchy web.
 
 ## games
 
-- [1000 checkboxes](./games/1000-checkboxes.md)
+- [10 checkboxes](./games/10-checkboxes.md)
