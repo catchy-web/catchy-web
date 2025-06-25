@@ -9,13 +9,13 @@ This is just 10.
 - [ ] &nbsp;
 - [x] &nbsp;
 - [ ] &nbsp;
+- [x] &nbsp;
 - [ ] &nbsp;
+- [x] &nbsp;
 - [ ] &nbsp;
+- [x] &nbsp;
 - [ ] &nbsp;
-- [ ] &nbsp;
-- [ ] &nbsp;
-- [ ] &nbsp;
-- [ ] &nbsp;
+- [x] &nbsp;
 
 ## The rules
 
