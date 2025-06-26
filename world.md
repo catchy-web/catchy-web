@@ -11,3 +11,7 @@ Welcome to the catchy web.
 - ~~10 checkboxes~~
 - [100 checkboxes](./games/100-checkboxes.md)
 - [Decide what to eat](./games/decide-what-to-eat.md)
+
+## music
+
+- [strudel](./music/strudel.md)
