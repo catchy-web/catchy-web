@@ -8,5 +8,6 @@ Welcome to the catchy web.
 
 ## games
 
-- [10 checkboxes](./games/10-checkboxes.md)
+- ~~10 checkboxes~~
+- [100 checkboxes](./games/100-checkboxes.md)
 - [Decide what to eat](./games/decide-what-to-eat.md)
