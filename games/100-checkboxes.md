@@ -126,6 +126,30 @@ This is just 100.
             box.checked = !box.checked;
         }
     }
+
+    var randomTime1 = Math.floor(Math.random() * 10) + 5;
+    setInterval(() => {
+        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
+        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+
+        randomTime1 = Math.floor(Math.random() * 10) + 5;
+    }, randomTime1 * 100);
+
+    var randomTime2 = Math.floor(Math.random() * 30) + 5;
+    setInterval(() => {
+        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
+        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+
+        randomTime2 = Math.floor(Math.random() * 30) + 5;
+    }, randomTime2 * 100);
+
+    var randomTime3 = Math.floor(Math.random() * 60) + 5;
+    setInterval(() => {
+        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
+        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+
+        randomTime3 = Math.floor(Math.random() * 60) + 5;
+    }, randomTime3 * 100);
 </script>
 
 ## The rules
