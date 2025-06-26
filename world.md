@@ -9,9 +9,10 @@ Welcome to the catchy web.
 ## games
 
 - ~~10 checkboxes~~
-- [100 checkboxes](./games/100-checkboxes.md)
+- ~~100 checkboxes~~
+- [1000 checkboxes](./games/1000-checkboxes.md)
 - [Decide what to eat](./games/decide-what-to-eat.md)
 
 ## music
 
-- [strudel](./music/strudel.md)
+- ~~strudel~~
