@@ -1011,55 +1011,6 @@ This is just 1'000.
 
 <script defer>
 
-    let checkboxes = board.getElementsByTagName("input");
-
-    for(const box of checkboxes) {
-        if(Math.floor(Math.random() * 100) > 50) {
-            box.checked = !box.checked;
-        }
-    }
-
-    var randomTime1 = Math.floor(Math.random() * 10) + 5;
-    setInterval(() => {
-        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime1 = Math.floor(Math.random() * 10) + 5;
-    }, randomTime1 * 100);
-
-    var randomTime2 = Math.floor(Math.random() * 20) + 10;
-    setInterval(() => {
-        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime2 = Math.floor(Math.random() * 20) + 10;
-    }, randomTime2 * 100);
-
-    var randomTime3 = Math.floor(Math.random() * 40) + 25;
-    setInterval(() => {
-        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime3 = Math.floor(Math.random() * 40) + 25;
-    }, randomTime3 * 100);
-
-    var randomTime4 = Math.floor(Math.random() * 80) + 40;
-    setInterval(() => {
-        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime4 = Math.floor(Math.random() * 80) + 40;
-    }, randomTime4 * 100);
-
-    var randomTime5 = Math.floor(Math.random() * 160) + 80;
-    setInterval(() => {
-        let randomBoxIndex = Math.floor(Math.random() * checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime5 = Math.floor(Math.random() * 160) + 80;
-    }, randomTime5 * 100);
-
-/*
     function randomInteger(max) {
         return Math.floor(Math.random() * max);
     }
@@ -1075,7 +1026,7 @@ This is just 1'000.
             console.log("flipped a box", count);
 
             seconds = randomInteger(range) + min;
-        }, seconds * 1000);
+        }, seconds * 100);
     }
 
     // set up board with around 50% of boxes checked
@@ -1090,7 +1041,7 @@ This is just 1'000.
     createChecker(40, 25);
     createChecker(80, 40);
     createChecker(160, 80);
-    */
+   
 </script>
 
 ## The rules
