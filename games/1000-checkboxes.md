@@ -1011,57 +1011,34 @@ This is just 1'000.
 
 <script defer>
 
-    function randomInteger(num) {
-        return Math.floor(Math.random() * num);
+    function randomInteger(max) {
+        return Math.floor(Math.random() * max);
     }
 
-    let checkboxes = board.getElementsByTagName("input");
+    const checkboxes = board.getElementsByTagName("input");
 
+    function createChecker(range, min) {
+        let seconds = randomInteger(range) + min;
+        setInterval(() => {
+            let randomBoxIndex = randomInteger(checkboxes.length);
+            checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+
+            seconds = randomInteger(range) + min;
+        }, seconds * 1000);
+    }
+
+    // set up board with around 50% of boxes checked
     for (const box of checkboxes) {
         if (Math.random() > 0.5) {
             box.checked = !box.checked;
         }
     }
 
-    let randomTime1 = randomInteger(10) + 5;
-    setInterval(() => {
-        let randomBoxIndex = randomInteger(checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime1 = randomInteger(10) + 5;
-    }, randomTime1 * 1000);
-
-    let randomTime2 = randomInteger(20) + 10;
-    setInterval(() => {
-        let randomBoxIndex = randomInteger(checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime2 = randomInteger(20) + 10;
-    }, randomTime2 * 100);
-
-    let randomTime3 = randomInteger(40) + 25;
-    setInterval(() => {
-        let randomBoxIndex = randomInteger(checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime3 = randomInteger(40) + 25;
-    }, randomTime3 * 100);
-
-    let randomTime4 = randomInteger(80) + 40;
-    setInterval(() => {
-        let randomBoxIndex = randomInteger(checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime4 = randomInteger(80) + 40;
-    }, randomTime4 * 100);
-
-    let randomTime5 = randomInteger(160) + 80;
-    setInterval(() => {
-        let randomBoxIndex = randomInteger(checkboxes.length);
-        checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
-
-        randomTime5 = randomInteger(160) + 80;
-    }, randomTime5 * 100);
+    createChecker(10, 5);
+    createChecker(20, 10);
+    createChecker(40, 25);
+    createChecker(80, 40);
+    createChecker(160, 80);
 </script>
 
 ## The rules
