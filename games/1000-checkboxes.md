@@ -1016,12 +1016,14 @@ This is just 1'000.
     }
 
     const checkboxes = board.getElementsByTagName("input");
+    let count = 0;
 
     function createChecker(range, min) {
         let seconds = randomInteger(range) + min;
         setInterval(() => {
             let randomBoxIndex = randomInteger(checkboxes.length);
             checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+            console.log("flipped a box", count);
 
             seconds = randomInteger(range) + min;
         }, seconds * 1000);
