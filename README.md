@@ -24,6 +24,9 @@ If others have fun too, they must share the fun.
 - [1000 checkboxes](./games/1000-checkboxes.md)
 - [Decide what to eat](./games/decide-what-to-eat.md)
 
+### concept
+
+- [catchy-lang](./concept/catchy-lang.md)
 
 ## migration
 
