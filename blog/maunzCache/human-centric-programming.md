@@ -18,7 +18,7 @@ And now here we are after so much time.
 I peeked into at least 20 different languages and syntaxes.
 None of those were mastered by me.
 
-When I think about it, only one was close to be comprehensible by humans: [Logo]<https://en.wikipedia.org/wiki/Logo_(programming_language)>. It has the same visual feedback and thus very satisfying.
+When I think about it, only one was close to be comprehensible by humans: [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)). It has the same visual feedback and thus very satisfying.
 
 So i was thinking, why not come up with a programming language that would be more human centric.
 Obviously, i am not the first one to think about it, but maybe i want to think about it.
