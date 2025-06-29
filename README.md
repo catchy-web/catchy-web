@@ -14,3 +14,10 @@ If others have fun too, they must share the fun.
 ## start here
 
 [>> world <<](./world.md)
+
+## migration
+
+We are now at <https://catchy-web.github.io/catchy-web/>!
+
+If you want to move probably type
+`git remote set-url origin git@github.com:catchy-web/catchy-web.git`
