@@ -13,7 +13,17 @@ If others have fun too, they must share the fun.
 
 ## start here
 
-[>> world <<](./world.md)
+### blog
+
+- [maunzCache](./blog/maunzCache/hi.md)
+
+### games
+
+- ~~10 checkboxes~~
+- ~~100 checkboxes~~
+- [1000 checkboxes](./games/1000-checkboxes.md)
+- [Decide what to eat](./games/decide-what-to-eat.md)
+
 
 ## migration
 
