@@ -11,3 +11,15 @@
 - It is not hardware or perfomance optimized or optimizable but "application" oriented
 - For inclusion, there is always feedback required: Visual, tactile, auditive, whatever is possible
 - It will probably never compile itself, so it is okay to write it in an existing programming language
+- It should be as simple as a prompt but not LLM based!
+  > What is the sum of 3 and 5?
+- Can it be "readable" by dyslexic people?
+- Will we have words?
+
+## Syntax ideas
+```
+write out:
+x as number 3
+y as number 5
+result of 3 + 5
+```
