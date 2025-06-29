@@ -2,6 +2,8 @@
 
 This is the catchy web. Inspired by the [tadiweb](https://github.com/TodePond/TadiWeb).
 
+<img src="./catchy-web.png" height="150" alt="the catchy web logo. there is a gradient red to orange background. like a sunrise. in the foreground a blob like figure in black and white with two tiny eyes is present. also four unknkown, blob like think floating above the figure">
+
 ## Catchy mindset
 
 While we love to be slippy, the catchy web wants to be catchy too.
