@@ -4,6 +4,7 @@ This is my blog in the catchy web.
 
 ## 2025
 
+- [Bye, catchy web](./bye-catchy-web.md)
 - [More content, more contribution](./more-content-more-contribution.md)
 - [This is honey fun](./this-is-honey-fun.md)
 - [Teh catchy web](./teh-catchy-web.md)
