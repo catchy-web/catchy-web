@@ -15,11 +15,95 @@
   > What is the sum of 3 and 5?
 - Can it be "readable" by dyslexic people?
 - Will we have words?
+- The language should be an entry level for beginners, but usable for advanced
+- It is ok to be verbose, if required
 
 ## Syntax ideas
 ```
 write out:
+with:
 x as number 3
 y as number 5
 result of 3 + 5
 ```
+
+### Experimental examples
+```javascript
+// Consider the script section of
+// https://github.com/catchy-web/catchy-web/blob/main/games/1000-checkboxes.md?plain=1
+
+function randomInteger(max) {
+        return Math.floor(Math.random() * max);
+    }
+
+    const checkboxes = board.getElementsByTagName("input");
+
+    function createChecker(range, min) {
+        let time = randomInteger(range) + min;
+        setInterval(() => {
+            let randomBoxIndex = randomInteger(checkboxes.length);
+            checkboxes[randomBoxIndex].checked = !checkboxes[randomBoxIndex].checked;
+            time = randomInteger(range) + min;
+        }, time * 100);
+    }
+
+    // set up board with around 50% of boxes checked
+    for (const box of checkboxes) {
+        if (Math.random() > 0.5) {
+            box.checked = !box.checked;
+        }
+    }
+
+    createChecker(10, 5);
+    createChecker(20, 10);
+    createChecker(40, 25);
+    createChecker(80, 40);
+    createChecker(160, 80);
+```
+
+Could translate to
+```
+called randomInteger:
+pass value:
+with:
+max as number
+return floor of random number * max
+
+with:
+checkboxes as undecided
+
+give checkboxes:
+from board:
+elements called input
+
+called createChecker:
+work on:
+with:
+range as number
+min as number
+
+with:
+time as number
+
+give time:
+result of randomIntegr + min
+with:
+range from range
+
+repeat:
+after time * 1000
+
+with:
+randomBoxInteger as number
+
+give randomBoxInteger:
+result of randomIntegr
+with:
+length of checkboxes
+
+// tbd
+
+finish work
+```
+
+Just figuring out a translation to that schema is super interesting as it already implies a lot of functionality of the potential language.
