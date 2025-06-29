@@ -3,10 +3,10 @@
 *2025-06-29*
 
 I was thinking what to do next.
-My brain as a lot of ideas I usually cannot pull of, but i want to try a new approach with the `catchy-web`.
+My brain has a lot of ideas I usually cannot pull of, but i want to try a new approach with the `catchy-web`.
 For me, programming picked up around 20 years ago.
 Probably a bit earlier still.
-For most kids at that time the web was the got to place.
+For most kids at that time the web was the go to place.
 That means start with HTML.
 
 HTML is beautiful, because it is a "What You See Is What You Get" (WYSIWYG) kind of language.
