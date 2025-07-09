@@ -21,8 +21,7 @@ If others have fun too, they must share the fun.
 
 ### games
 
-- ~~10 checkboxes~~
-- ~~100 checkboxes~~
+- [show less](./games/show-less.md)
 - [1000 checkboxes](./games/1000-checkboxes.md)
 - [Decide what to eat](./games/decide-what-to-eat.md)
 
