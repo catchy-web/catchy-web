@@ -117,3 +117,5 @@ Hooray! You found something to eat! [[satified!]](#try-again) <> [[but still...]
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
+
+CC BY-NC-SA 4.0

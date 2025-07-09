@@ -21,3 +21,5 @@ And that is fine.
 No one knows what will happen next.
 
 ~maunz
+
+CC BY-NC-SA 4.0

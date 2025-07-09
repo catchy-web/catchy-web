@@ -142,3 +142,5 @@ While I am incepting into this new universe, I will probably update this blog en
 Hope that was a bit of an inspiration to you.
 
 ~maunz
+
+CC BY-NC-SA 4.0

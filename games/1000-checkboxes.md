@@ -1044,3 +1044,5 @@ This is just 1'000.
 ## The rules
 
 Commit your change, so others can see it!
+
+CC BY-NC-SA 4.0

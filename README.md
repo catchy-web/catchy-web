@@ -36,3 +36,5 @@ We are now at <https://catchy-web.github.io/catchy-web/>!
 
 If you want to move probably type
 `git remote set-url origin git@github.com:catchy-web/catchy-web.git`
+
+CC BY-NC-SA 4.0

@@ -13,3 +13,5 @@ If not, it was a cool experiment.
 PS: Find me on <https://ruhr.social/@maunzCache> until i move servers!
 
 ![this is fun](./pics/this-is-fun.png)
+
+CC BY-NC-SA 4.0

@@ -107,3 +107,5 @@ finish work
 ```
 
 Just figuring out a translation to that schema is super interesting as it already implies a lot of functionality of the potential language.
+
+CC BY-NC-SA 4.0

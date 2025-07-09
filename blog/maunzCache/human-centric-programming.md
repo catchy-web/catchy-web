@@ -24,3 +24,5 @@ So i was thinking, why not come up with a programming language that would be mor
 Obviously, i am not the first one to think about it, but maybe i want to think about it.
 
 ~maunz
+
+CC BY-NC-SA 4.0

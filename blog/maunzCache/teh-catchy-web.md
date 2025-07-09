@@ -12,3 +12,5 @@ The idea is: Put everything into this repository as long as it is fun. Everythin
 I will start with mardown until its no more fun.
 
 ~maunz
+
+CC BY-NC-SA 4.0
