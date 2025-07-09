@@ -18,6 +18,8 @@ Here is my ride with it. For you <3
 
 ## Preparations
 
+First of all: GrapheneOS is only for Pixel devices. For all other, you want to check out [LineageOS](https://lineageos.org/) and [postmarketOS](https://postmarketos.org/), both not covered in this blog.
+
 I have moved a lot of smartphones due to having devices for work which were available for private usage. Previously, all the data was backuped in Google Services (proabably Google One?) or I would be able to move the data directly using USB-C. Not this time though. It was time for so good old manual backup.
 
 Here is a few questions you should ask yourself before starting anything:
@@ -102,12 +104,14 @@ Setting up everything might not be easy, because you will need to give more gran
 
 If you don't want to reinstall all the vendor apps, then you have to get another app store on your device. The most famous one is [F-Droid](https://f-droid.org/) and for the hackers among us [Obtainium](https://obtainium.imranr.dev/) get you things right up from the source.
 
+Edit: For those who want to go completely dark, check out the [Aurora Store](https://f-droid.org/packages/com.aurora.store/) which works on any device or [Accrescent](https://accrescent.app/) shipped with the mini app store of GrapheneOS. The Aurora Store has some weird quirks, but cool features as removing country restrictions.
+
 For vendors, [Fossify](https://github.com/FossifyOrg) has a good amount of apps that are open source and bring you back feature you might want.
 
 ## Connecting a smartwatch
 
 There is one thing I want to point out, because it was super frustrating to me. If you happen to have a Google Pixel Watch, I am sorry for you. I am guilty of this and it really sucks.  
-It was one of the worst buying decision I ever took, but I will keep the watch until I can replace the watchOS there as well.
+It was one of the worst buying decision I ever took, but I will keep the watch until I can replace the Wear OS there as well.
 
 What you should now: You will have to reset it back to factory settings.
 
